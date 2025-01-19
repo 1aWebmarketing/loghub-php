@@ -1,0 +1,22 @@
+{
+    "name": "oneawebmarketing/loghub-php",
+    "description": "PHP Wrapper for LogHub.cloud",
+    "type": "library",
+    "require": {
+    },
+    "license": "MIT",
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LogHub\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "1aWebmarketing",
+            "email": "info@1awebmarketing.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
