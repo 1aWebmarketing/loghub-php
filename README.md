@@ -26,7 +26,7 @@ composer require oneawebmarketing/loghub-php
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an email to security@tidelift.com. All security vulnerabilities will be promptly addressed. Please do not disclose security-related issues publicly until a fix has been announced. Please see [Security Policy](https://github.com/guzzle/guzzle/security/policy) for more information.
+If you discover a security vulnerability within this package, please send an email to security@loghub.cloud. All security vulnerabilities will be promptly addressed. Please do not disclose security-related issues publicly until a fix has been announced.
 
 ## License
 
