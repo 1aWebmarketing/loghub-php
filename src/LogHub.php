@@ -25,7 +25,7 @@ class LogHub
         self::$timers = array();
     }
 
-    public static function log(String $function, $message, Int $type = self::TYPE_INFO, String $url = "", String $encoding = self::ENCODING_TEXT, Int $parent = null) : null | int
+    public static function log(string $function, $message, int $type = self::TYPE_INFO, string $url = "", string $encoding = self::ENCODING_TEXT, ?int $parent = null) : null | int
     {
         if(!self::$api_key) return null;
 
@@ -75,7 +75,7 @@ class LogHub
     public static function sendTimer(String $timer, Float $duration)
     {
         if(!self::$api_key) return null;
-        
+
         $data = array(
             'timer' => $timer,
             'duration' => $duration,
